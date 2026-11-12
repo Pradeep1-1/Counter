@@ -3,96 +3,55 @@
 
 ## Project Overview
 
-This project is a React Counter Application developed using the React `useState` Hook. It allows users to increment, decrement, and reset the counter value. It also includes a Light/Dark theme toggle to change the application's appearance dynamically.
+A React application demonstrating the useState Hook by implementing a Counter Application with Increment, Decrement, Reset, and Light/Dark Theme Toggle functionalities.
 
 ## Technologies Used
 
 - React.js
 - JavaScript
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Vite
 
 ## Features
 
-### 1. Counter Application
-- Increment the counter value by 1.
-- Decrement the counter value by 1.
-- Reset the counter value to 0.
-- Display the current counter value dynamically.
+- Displays the current counter value dynamically.
+- Uses Increment button to increase the counter value by 1.
+- Uses Decrement button to decrease the counter value by 1.
+- Uses Reset button to reset the counter value to 0.
+- Implements Light Mode and Dark Mode toggle functionality.
+- Dynamically changes background, text, and button colors.
+- Displays the current theme mode.
+- Responsive counter interface for desktop and mobile devices.
 
-### 2. Theme Toggle
-- Switch between Light Mode and Dark Mode.
-- Dynamically change background and text colors.
-- Update button styles based on the selected theme.
-- Display the current theme mode.
-- Apply theme changes without refreshing the page.
+## Components
 
-### 3. Responsive Design
-- Clean and professional user interface.
-- Responsive layout for desktop and mobile devices.
-- Readable text and buttons in both themes.
+- App – Main application component.
+- Counter – Manages counter functionalities.
+- Theme Toggle – Handles Light and Dark theme switching.
 
-## React Concepts Implemented
+## How to Run
 
-- React useState Hook
+1. Clone this repository.
+2. Install dependencies:
+
+   `npm install`
+
+3. Start the development server:
+
+   `npm run dev`
+
+## Concepts Implemented
+
+- React useState() Hook
 - State Management
 - Event Handling
-- Conditional Rendering
-- Dynamic Styling
 - Increment and Decrement Operations
 - Reset Functionality
-
-## Project Structure
-
-```text
-src/
-├── App.jsx
-├── App.css
-├── index.css
-└── main.jsx
-```
-
-## Installation and Setup
-
-1. Clone the repository:
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-2. Navigate to the project folder:
-
-```bash
-cd YOUR_PROJECT_FOLDER
-```
-
-3. Install dependencies:
-
-```bash
-npm install
-```
-
-4. Start the development server:
-
-```bash
-npm run dev
-```
-
-5. Open the localhost URL in your browser.
-
-## Build
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-## Learning Outcome
-
-Through this task, I learned how to use the React `useState` Hook to manage component states, handle user events, update UI elements dynamically, and implement Light/Dark theme functionality.
+- Conditional Rendering
+- Dynamic Styling
+- Theme Toggle
 
 ## Author
 
-Pradeep Srinivasan.
+Pradeep Srinivasan
