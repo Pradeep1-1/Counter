@@ -5,6 +5,10 @@
 
 A React application demonstrating the useState Hook by implementing a Counter Application with Increment, Decrement, Reset, and Light/Dark Theme Toggle functionalities.
 
+## Live Demo
+
+[View Live Project]( https://pradeep1-1.github.io/Counter/)
+                                                                            
 ## Technologies Used
 
 - React.js
